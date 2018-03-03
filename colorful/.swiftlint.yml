@@ -1,0 +1,23 @@
+excluded:
+- Pods/
+- scripts/
+reporter: "xcode"
+variable_name:
+min_length: # not possible to disable this partial rule, so set it to zero
+warning: 0
+error: 0
+disabled_rules:
+- file_length
+- force_cast
+- force_try
+- function_body_length
+- todo
+- type_body_length
+- line_length
+- vertical_whitespace
+- syntactic_sugar
+- identifier_name
+- function_parameter_count
+- type_name
+- large_tuple
+- shorthand_operator
