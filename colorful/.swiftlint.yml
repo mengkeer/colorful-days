@@ -21,3 +21,4 @@ disabled_rules:
 - type_name
 - large_tuple
 - shorthand_operator
+- trailing_whitespace
