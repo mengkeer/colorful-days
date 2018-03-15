@@ -17,6 +17,7 @@
 		AD7DDB55204C639C009061C9 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7DDB54204C639C009061C9 /* TabbarViewController.swift */; };
 		AD7DDB5E204C6B39009061C9 /* CountDownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7DDB5D204C6B39009061C9 /* CountDownViewController.swift */; };
 		AD7DDB61204C6B91009061C9 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7DDB60204C6B91009061C9 /* TimelineViewController.swift */; };
+		AD7DDB69204DAE38009061C9 /* UIBarButtonItem+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7DDB68204DAE38009061C9 /* UIBarButtonItem+Custom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		AD7DDB54204C639C009061C9 /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
 		AD7DDB5D204C6B39009061C9 /* CountDownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDownViewController.swift; sourceTree = "<group>"; };
 		AD7DDB60204C6B91009061C9 /* TimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		AD7DDB68204DAE38009061C9 /* UIBarButtonItem+Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Custom.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				AD3AA4DA2049CD82009692D6 /* AppDelegate.swift */,
 				AD3AA4DC2049CD82009692D6 /* ViewController.swift */,
 				AD3AA4DE2049CD82009692D6 /* Main.storyboard */,
+				AD7DDB65204DAD74009061C9 /* Categories */,
 				AD7DDB5A204C6700009061C9 /* Controllers */,
 				AD7DDB51204C6215009061C9 /* Models */,
 				AD7DDB50204C6207009061C9 /* Views */,
@@ -161,6 +164,14 @@
 				AD7DDB60204C6B91009061C9 /* TimelineViewController.swift */,
 			);
 			path = timeline;
+			sourceTree = "<group>";
+		};
+		AD7DDB65204DAD74009061C9 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				AD7DDB68204DAE38009061C9 /* UIBarButtonItem+Custom.swift */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 		DA2AC09B58468C12B625CFEE /* Pods */ = {
@@ -347,6 +358,7 @@
 				AD7DDB5E204C6B39009061C9 /* CountDownViewController.swift in Sources */,
 				AD3AA4DB2049CD82009692D6 /* AppDelegate.swift in Sources */,
 				AD7DDB4D204B18AD009061C9 /* R.generated.swift in Sources */,
+				AD7DDB69204DAE38009061C9 /* UIBarButtonItem+Custom.swift in Sources */,
 				AD7DDB61204C6B91009061C9 /* TimelineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

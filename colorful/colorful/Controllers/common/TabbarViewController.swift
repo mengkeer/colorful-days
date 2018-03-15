@@ -20,7 +20,10 @@ class TabbarViewController: UITabBarController {
         controller.tabBarItem.title = title
         controller.tabBarItem.image = image
         controller.tabBarItem.selectedImage = R.image.settings()
-        
+//        [vc.tabBarItem setTitlePositionAdjustment:UIOffsetMake(0, -3)];
+
+        controller.tabBarItem.titlePositionAdjustment = UIOffsetMake(0, 3)
+
         let nav = UINavigationController(rootViewController: controller)
         addChildViewController(nav)
     }
